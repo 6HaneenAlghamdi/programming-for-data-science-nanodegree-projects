@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
+DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
 def get_filters():
     """
@@ -37,10 +38,9 @@ def get_filters():
 
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
     while True:
         day = input("Which day would you like to filter by? (monday, tuesday, ..., sunday or 'all' for no filter): ").lower()
-        if day in days:
+        if day in DAYS:
             break
         else:
             print("Invalid input. Please try again.")

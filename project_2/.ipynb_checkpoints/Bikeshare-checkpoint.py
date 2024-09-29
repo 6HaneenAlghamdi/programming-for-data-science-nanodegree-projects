@@ -6,7 +6,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
 def get_filters():
@@ -30,6 +29,7 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     while True:
+        MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
         month = input("Which month would you like to filter by? (january, february, ..., june or 'all' for no filter): ").lower()
         if month in MONTHS:
             break

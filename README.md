@@ -7,7 +7,8 @@
 Post your Work on GitHub
 
 ### Description
-In this project, you'll be simulating a realistic workflow to refactor your previous Project 2 using Git.
+In this project, you'll be simulating a realistic workflow to refactor your previous Project 2 using Git
+
 
 ### Files used
 Git Commands Documentation.pdf
@@ -15,6 +16,5 @@ Git-KeyTerms.pdf
 
 ### Credits
 https://git-scm.com/doc
-https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
 
 

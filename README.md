@@ -16,5 +16,7 @@ Git-KeyTerms.pdf
 
 ### Credits
 https://git-scm.com/doc
+https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
+
 
 
